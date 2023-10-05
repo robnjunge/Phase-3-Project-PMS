@@ -34,7 +34,6 @@ class Product(Base):
     quantity = Column(Integer())
     customers = relationship("Customer", secondary=orders, back_populates="products")
 
-
 # Define the Customer model
 class Customer(Base):
     __tablename__ = "customers"
