@@ -1,4 +1,3 @@
-#Import necessary modules and libraries
 from sqlalchemy import create_engine
 from sqlalchemy import ForeignKey, Table, Column, Integer, String, Date
 from sqlalchemy.orm import relationship, sessionmaker
