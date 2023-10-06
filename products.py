@@ -406,7 +406,7 @@ def get_products_purchased_in_date_range(session, start_date, end_date):
 
 
 @click.command()
-@click.option("--role", prompt="Enter your role (store manager/user): ")
+@click.option("--role", prompt="Enter your role (stock manager/user): ")
 def main(role):
     if role == "stockmanager":
         print("Menu:")
